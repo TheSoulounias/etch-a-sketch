@@ -27,4 +27,4 @@ function createGrid(rows, columns) {
   }
 }
 button.onclick = () => createGrid(inputX.value,inputY.value);
-clearButton.onclick = () => body.removeChild(document.querySelector('.container'));
+// clearButton.onclick = () => body.removeChild(document.querySelector('.container'));
